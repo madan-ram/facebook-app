@@ -1,0 +1,269 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 800px;
+	margin: 0 auto;
+	z-index:10;
+	font:100% Arial, Helvetica, sans-serif;
+}
+
+#slide_container {
+	position: relative;
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-top: 30px;
+}
+
+.prv {
+	position: absolute;
+	float: left;
+	padding-top: 188px;
+	left: -20px;
+	z-index: 10;
+}
+
+.next {
+	position: absolute;
+	float: right;
+	padding-top: 188px;
+	right: -20px;
+	z-index: 10;
+}
+
+.slider img {
+	border: 1px solid #000;
+}
+
+/********************************************************************************/
+.button a {
+	background: #ededed;
+	margin-left: 50px;
+	text-decoration: none;
+	padding: 5px 15px;
+	border: 2px solid #dcdcdc;
+	border-radius: 6px; /*set the border radius*/
+}
+
+.button a:hover {
+	background-color:#ededee;
+	padding:8px 17px;
+	margin-left:44px;
+	border:3px solid #dcdcdc;
+	margin-bottom:-8px;
+	border-color:purple;
+	color:purple;
+}
+
+#player iframe {
+	height: 400px;
+	width: 580px;
+	margin-top: 20px;
+}
+
+#full_button {
+	margin-top: 20px;
+	margin-left: 110px;
+}
+
+/***********************************************************************************/
+.buttonhover
+{
+	margin-top:50px;
+	margin-right:50px;
+}
+
+.buttonhover img:hover
+{
+	width:80px;
+	height:80px;
+	margin-top:-20px;
+	margin-left:-16px;
+}
+
+.buttonhover a
+{
+	margin-top:40px;
+	margin-left:30px;
+}
+
+form#post_me
+{
+	margin-top:40px;
+	margin-left:30px;
+}
+
+#count
+{
+	top:200px;
+	right:400px;
+	float:left;
+}
+
+#HCB_comment_box
+{
+	margin-left:30px;
+}
+
+#HCB_comment_box #hcb_form_content
+{
+	height:60px;
+	width:600px;
+}
+
+#fallow_me
+{
+	position:absolute;
+	top:18px;
+	right:980px;
+}
+
+#line
+{
+	margin-left:24px;
+	background:red;
+	height:2px;
+	width:600px;
+}
+
+.hcb-icon,.home-desc
+{
+	display:none;
+}
+
+#HCB_comment_box href
+{
+	display:none;
+}
+
+.btn-group a
+{
+	display:none;
+}
+
+.twitter-follow-button a {
+display: block; padding: 20px 0px 0px 20px;
+background:url('./image/twitter-button.png') no-repeat; border: 0px;
+}
+/************************************************************************************************/
+#fbutton_all
+{
+	margin-left:80px;
+	width:580px;
+	height:400px;
+}
+
+#e_mail
+{
+		width:580px;
+}
+/************************************************************************************************/
+#slide_container_text
+{
+	width:580px;
+	height:400px;
+	background:gray;
+	border-radius:20px;
+	margin:0 auto;
+	margin-top:20px;
+}
+/************************************************************************************************/
+
+.prev_text {
+	float: left;
+	left: -20px;
+	z-index: 10;
+}
+
+.next_text {
+	float: right;
+	padding-top: 363px;
+	right: -20px;
+	z-index: 10;
+}
+
+#slide_container_text li
+{
+	margin-left:600px;
+	height:350px;
+	width:600px;
+}
+
+.image li
+{
+
+}
+
+/************************************************************************************************/
+.feed
+{
+	margin-left:110px;
+	margin-top:20px;
+}
+/************************************************************************************************/
+.button input
+{
+	background:#ededed;
+	margin-left:50px;
+	text-decoration:none;
+	padding:5px 15px;
+	border:2px solid #dcdcdc;
+	border-radius:6px;/*set the border radius*/
+}
+.button
+{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.button input:hover
+{
+	background-color:#ededee;
+	padding:8px 17px;
+	margin-left:46px;
+	border:3px solid #dcdcdc;
+	margin-bottom:-8px;
+	border-color:purple;
+	color:purple;
+}
+
+form h8
+{
+	margin-left:49px;
+}
+/**************************************************************************************************/
+textarea:hover
+{
+	background-color:#ededee;;
+	border:3px solid #dcdcdc;
+	border-color:purple;
+	color:purple;
+	border-radius:6px;
+}
+
+.button option
+{
+	margin-top:15px;
+	background:#ededed;
+	text-decoration:none;
+	padding:5px 15px;
+	border:2px solid #dcdcdc;
+	border-radius:6px;/*set the border radius*/
+}
+
+.move_menu
+{
+	margin-top:10px;
+}
+.button option:hover
+{
+	background-color:#ededee;
+	margin-left:-2px;
+	border:3px solid #dcdcdc;
+	margin-bottom:6px;
+	border-color:purple;
+	color:purple;
+}
+/**************************************************************************************************/
+
